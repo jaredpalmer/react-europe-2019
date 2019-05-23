@@ -1,0 +1,71 @@
+{
+  "name": "apollo-day",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-hooks": "^0.1.0-beta.2",
+    "@reach/router": "^1.2.1",
+    "apollo-boost": "^0.3.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "2.5.1",
+    "apollo-utilities": "^1.2.1",
+    "connect-prism": "^1.0.21",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "history": "^4.9.0",
+    "hoist-non-react-statics": "^3.3.0",
+    "http-proxy-middleware": "^0.19.1",
+    "lodash": "^4.17.11",
+    "lodash.uniqby": "^4.7.0",
+    "node-sass": "^4.12.0",
+    "path-to-regexp": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-apollo-hooks": "^0.4.5",
+    "react-cache": "^2.0.0-alpha.1",
+    "react-dom": "^16.8.6",
+    "react-draggable": "^3.3.0",
+    "react-error-boundary": "^1.2.5",
+    "react-fast-compare": "^2.0.4",
+    "react-flip-toolkit": "^6.5.9",
+    "react-scripts": "3.0.1",
+    "scheduler": "^0.14.0",
+    "the-platform": "^0.10.1",
+    "tiny-invariant": "^1.0.4",
+    "tiny-warning": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "postinstall": "yarn patch-package",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "patch-package": "^6.1.2"
+  },
+  "prettier": {
+    "printWidth": 70,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": true
+  }
+}
