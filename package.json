@@ -22,7 +22,7 @@
     "node-sass": "^4.12.0",
     "path-to-regexp": "^3.0.0",
     "prop-types": "^15.7.2",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "react": "^16.8.6",
     "react-apollo-hooks": "^0.4.5",
     "react-cache": "^2.0.0-alpha.1",
